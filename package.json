@@ -1,0 +1,21 @@
+{
+  "name": "meshblu-pi",
+  "repository": "octoblu/meshblu-pi",
+  "version": "2.0.1",
+  "scripts": {
+    "start": "node command.js",
+    "test": "exit 0"
+  },
+  "dependencies": {
+     "meshblu": "^1.9.0",
+    "debug": "^2.1.0",
+     "raspi-io": "*",
+    "remote-io": "*",
+    "johnny-five": "^0.8.40",
+    "meshblu-vserial": "*"
+  },
+  "keywords": [
+    "meshblu-connector",
+    "gateblu"
+  ]
+}
