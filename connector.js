@@ -3,7 +3,7 @@ var Plugin = require('./index').Plugin;
 var meshblu = require('meshblu');
 var RemoteIO = require('remote-io');
 var Rasp = require('raspi-io');;
-var SkynetSerialPort = require('meshblu-vserial').SerialPort;
+var SkynetSerialPort = require('meshblu-virtual-serial').SerialPort;
 
 var Connector = function(config) {
   var conx = meshblu.createConnection({
